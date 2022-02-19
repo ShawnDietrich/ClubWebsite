@@ -1,0 +1,97 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    background-color: bisque;
+}
+
+.nav{
+    padding: 0.4rem 0px; 
+    background-color:coral;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    margin: 5px auto;
+}
+ul a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    margin: 0 3rem;
+}
+li{
+    display: inline-block;
+    text-align: center;
+}
+
+@media only screen and (max-width: 850px){
+    li{
+        display: block;
+    }
+}
+
+/* Intro Section */
+.intro{
+    margin-top: 20%;
+    background-color: rgb(165, 121, 80);
+}
+.intro h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 2rem 0px;
+    margin-bottom: 0px;
+}
+
+/* Compitition section*/
+.comp{
+    background-color: rgb(252, 208, 63);
+    text-align: center;
+    width: 50%;
+    margin: 5% auto;
+    height: 100%;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+}
+.comp h2{
+    margin-top: 0px;
+    padding-top: 5%;
+}
+.comp p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Image section */
+.photos{
+    margin: 4em auto;
+    text-align: center;
+}
+.photos img{
+    width: 30%;
+    margin: 1.5% auto;
+    border-radius: 5%;
+}
+
+@media only screen and (max-width: 850px) {
+    .photos{
+        display: grid;
+    }
+    
+}
+
+/* Events section */
+.events {
+    background-color: rgb(216, 143, 83);
+    width: 75%;
+    margin: 1em auto;
+    text-align: center;   
+    padding: 1em 0px;
+    border-radius: 1em;
+}
+.events h2{
+    margin-top: 0px;
+}
+
+.invite{
+    text-align: center;
+
+}
